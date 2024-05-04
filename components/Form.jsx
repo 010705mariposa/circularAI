@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
   return ( 
-    <section className="flex-col w-1/3 text-center mx-auto w-screen">
+    <section className="flex-col w-1/3 text-center mx-auto">
       <h1 className="head_text"><span className="orange_gradient">{type} Post</span></h1>
       <p className="desc">{type} and share amazing prompts with the world, and let your imagination run wild with any AI-powered platform.</p>
 
