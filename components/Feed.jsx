@@ -6,7 +6,7 @@ import PromptCard from "./PromptCard";
 
 const PromptCardList = ({ data, handleTagClick }) => {
   return (
-    <div className='flex-between mx-auto w-2/3 pb-24'>
+    <div className='flex-between mx-auto w-2/3 flex flex-wrap pb-24'>
       {data.map((post) => (
         <PromptCard
           key={post._id}
@@ -15,7 +15,7 @@ const PromptCardList = ({ data, handleTagClick }) => {
         />
       ))}
     </div>
-  );
+  ); 
 };
 
 const Feed = () => {
@@ -32,6 +32,7 @@ const Feed = () => {
 
     setAllPosts(data);
   };
+
 
   useEffect(() => {
     fetchPosts();

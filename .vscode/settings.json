@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".next": true,
+        ".vscode": true,
+        "README.md": true,
+        "postcss.config.mjs": true,
+        "tailwind.config.js": true,
+        "node_modules": true,
+        ".gitignore": true,
+        "jsconfig.json": true
+    },
+    "hide-files.files": [
+        ".next",
+        ".vscode",
+        "README.md",
+        "postcss.config.mjs",
+        "tailwind.config.js",
+        "node_modules",
+        ".gitignore",
+        "jsconfig.json"
+    ]
+}
